@@ -1,12 +1,62 @@
 
 body {
+  height: 100vh;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url('../images/express-background.png');
-  /* background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 a {
-  color: #00B7FF;
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: 'Share Tech Mono', monospace;
 }
 
+#first {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 100px;
+}
+
+h1 {
+  font-size: 100px;
+  color:aliceblue;
+  font-family: 'Share Tech Mono', monospace;
+}
+li {
+  font-size: 50px;
+}
+#add {
+  font-size: 35px;
+  border-color: aliceblue;
+  border-style: solid;
+  padding: 10px 10px 10px 10px;
+}
+input {
+  padding: 10px 10px 10px 10px;
+  font-size: 40px;
+  font-family: 'Share Tech Mono', monospace;
+}
+#addButton {
+  padding: 10px 10px 10px 10px;
+  font-size: 40px;
+  font-family: 'Share Tech Mono', monospace;
+}
+h3 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 100px;
+  color: aliceblue;  
+}
+#passed {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 50px; 
+}
+#deleteBtn {
+  padding: 10px 30px 10px 30px;
+  font-size: 40px;
+  font-family: 'Share Tech Mono', monospace;
+}
