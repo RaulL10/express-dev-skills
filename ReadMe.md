@@ -1,4 +1,4 @@
-<img src="/Users/raullopez/code/express-dev-skills/public/images/Home-page.png"/>
+<img src="https://i.imgur.com/ok1hgfL.png"/>
 
 # EXPRESS DEV SKILLS
 ---
@@ -23,6 +23,6 @@ Using the terminal to run Nodeman, I can take a look into my localhost:3000 serv
 - JavaScript
 - HTML
 
-<img src="/Users/raullopez/code/express-dev-skills/public/images/Skills-list.png"/>
-<img src="/Users/raullopez/code/express-dev-skills/public/images/new-skill.png"/>
-<img src="/Users/raullopez/code/express-dev-skills/public/images/Show.png"/>
+<img src="https://i.imgur.com/X6ODcIv.png"/>
+<img src="https://i.imgur.com/rwBRGBu.png"/>
+<img src="https://i.imgur.com/8d2X1Tl.png"/>
