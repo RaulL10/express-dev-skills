@@ -12,10 +12,12 @@
     <title><%= skill.skill %></title>
 </head>
 <body>
-    <h3><%= skill.skill %></h3>
-    <h3 id="passed" >Passed: <%= skill.done ? 'Yes!' : 'Not Yet!' %></h3>
+    <h1><%= skill.skill %></h1>
+    <h2>Unit: <%= skill.unit ? '1' : '2' %></h2>
+    <h3>Passed: <%= skill.passed ? 'Yes!' : 'Not Yet!' %></h3>
     <form action="/skills/<%=skill.id %>?_method=DELETE" class="delete-form" method="POST">
-        <button id="deleteBtn" type="submit">X</button>
+        <button id="deleteBtn" type="submit">X</button>        
     </form>
+    <a href="/skills/<%=skill.id %>/edit">Edit Skill</a>
 </body>
 </html>

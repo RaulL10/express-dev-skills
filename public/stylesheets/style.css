@@ -60,3 +60,28 @@ h3 {
   font-size: 40px;
   font-family: 'Share Tech Mono', monospace;
 }
+h2 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 55px;
+  color: aliceblue;  
+}
+label {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 55px;
+  color: aliceblue; 
+}
+#unit {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 30px;
+  padding: 5px 5px 5px 5px;
+}
+#passed {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 30px;
+  padding: 5px 5px 5px 5px;
+}
+#edit {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 40px;
+  padding: 5px 5px 5px 5px;
+}

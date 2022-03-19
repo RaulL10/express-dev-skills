@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <title><%=skill.skill %> Edit</title>
+</head>
+<body>
+    <h1>Edit <%=skill.skill %></h1>
+
+    <form action="/skills/<%= skill.id%>?_method=PUT" method="POST">
+        <!-- <label> Skill Name:
+            <input type="text" name="name" value="<%= skill.skill %>">
+        </label><br> -->
+        <label> Unit:
+            <select name="unit" id="unit">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+        </label><br>
+        <label> Passed:
+            <select name="passed" id="passed">
+                <option value="Yes!">Yes!</option>
+                <option value="Not Yet!">Not Yet!</option>
+            </select>
+        </label><br>
+        <button id="edit" type="submit">EDIT</button>        
+    </form>   
+</body>
+</html>
